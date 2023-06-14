@@ -1,0 +1,117 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	font-family: Arial, sans-serif;
+	font-size: 16px;
+	line-height: 1.5;
+}
+
+header {
+	background-color: #184579;
+	color: #fff;
+	padding: 20px;
+}
+
+h1 {
+	font-size: 36px;
+	margin-bottom: 10px;
+
+}
+
+h4 {
+	font-size: 21px;
+	margin-bottom: 2px;
+}
+
+footer {
+	background-color: #184579;
+	color: #fff;
+	padding: 20px;
+	text-align: center;
+	margin-top: 20px;
+}
+
+hr {
+    width: 100%;
+    height: 1px;
+    border: 0px;
+    border-top: 1px solid rgb(255, 255, 255);
+    background-color: #dddddd;
+	width: 70%;
+	margin-left: 15%
+}
+
+
+nav ul {
+	list-style: none;
+	display: flex;
+}
+
+nav li {
+	margin-right: 20px;
+}
+
+nav ul #nav-li:hover {
+	color: #0b7dda;
+	transition: 0.3s;
+}
+
+nav a {
+	transition: 0.3s;
+	color: #fff;
+	text-decoration: none;
+}
+
+main {
+	max-width: 960px;
+	margin: 0 auto;
+	padding: 20px;
+	display: flex;
+	flex-wrap: wrap;
+}
+
+img {
+	width: 40%;
+	margin: auto;
+	display: block;
+	margin-top: 2%;
+}
+
+.section1 {
+	flex: 1;
+	margin-right: 20px;
+	margin-bottom: 20px;
+	background-color: #f1f1f1;
+	box-shadow: 1px 10px 10px #979696;
+	padding: 20px;
+	text-align: justify;
+}
+
+/* botão de pesquisa Search */
+
+* {
+	box-sizing: border-box;
+  }
+  
+/* Alinhar caixa de pesquisa */  
+  .search-container {
+	float: right;
+	display: flex;
+	flex-direction: column;
+	gap: 30px;
+	align-items: flex-end;
+}
+
+.userAndLogout {
+	display: flex;
+	gap: 15px;
+}
+
+.logoutSession {
+	color: white;
+	text-decoration: none;
+}

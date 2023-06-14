@@ -1,0 +1,140 @@
+/* 
+    Cores do site: 
+    Cor de fundo: #184579
+    Cor do botão: #6cc6ff 
+*/
+
+h4 {
+	font-size: 21px;
+	margin-bottom: 2px;
+}
+
+footer {
+	background-color: #184579;
+	color: #fff;
+	padding: 20px;
+	text-align: center;
+    margin-top: 80px;
+}
+
+hr {
+    width: 100%;
+    height: 1px;
+    border: 0px;
+    border-top: 1px solid rgb(255, 255, 255);
+    background-color: #dddddd;
+	width: 70%;
+	margin-left: 15%
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.cabecalho {
+    padding: 10px 25px;
+    display: flex;
+    background-color: #184579;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.cabecalho img {
+    width: 10rem;
+}
+
+
+.cabecalho .navegacao {
+    display: flex;
+    gap: 20px;
+}
+
+
+.cabecalho .navegacao button {
+    padding: 10px;
+    border-radius: 500px;
+    border: 1px solid #6cc6ff;
+    transition: 0.4s;
+    background-color: white;
+}
+
+.cabecalho .navegacao a button {
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.cabecalho .navegacao button:hover {
+    cursor: pointer;
+    background-color: #6cc6ff;
+    border: 1px solid #184579;
+}  
+
+#buttons {
+    color: #184579;
+}
+
+.cabecalho .userSession {
+    color: white;
+    display: flex;
+    align-items: center;
+    gap: 4px;
+    margin-bottom: 0;
+}
+
+.search {
+    padding-bottom: 20px;
+    padding-right: 10px;
+    display: flex;
+    gap: 5px;
+    justify-content: flex-end;
+}
+
+#actions {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 3px;
+}
+
+.down-delete {
+    display: flex;
+    gap: 5px;
+}
+
+#button-td {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+}
+
+form.search input[type=text] {
+	padding: 10px;
+	font-size: 17px;
+	border: 2px solid #2196F3;
+	border-radius: 50px;
+	float: left;
+	background: #f1f1f1;
+    width: 250px;
+  }
+  
+/* botão da caixa */
+  form.search button {
+	float: left;
+	padding: 10px;
+    width: 5%;
+	background: #2196F3;
+	color: white;
+	font-size: 17px;
+	border: 0px  rgb(255, 255, 255);
+	border-radius: 50px;
+	border-left: none;
+	cursor: pointer;
+  }
+
+  form.search button:hover {
+	background: #0b7dda;
+  }
