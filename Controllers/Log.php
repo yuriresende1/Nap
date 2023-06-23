@@ -61,6 +61,6 @@
         echo "</ul>";
         echo "</nav>";
     } else {
-        echo "<p class='alert alert-danger'>Nenhum log</p>";
+        echo "<p class='alert alert-danger'>Ainda não possui um histórico de log</p>";
     }
 ?>

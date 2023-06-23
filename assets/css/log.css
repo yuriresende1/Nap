@@ -13,6 +13,13 @@ h4 {
 	margin-bottom: 2px;
 }
 
+#main {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 #footer {
 	background-color: #184579;
 	color: #fff;
