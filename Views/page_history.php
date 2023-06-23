@@ -44,11 +44,13 @@
             </div>
         </header>
 
-        <div class="container">
-            <?php
-                include("../Controllers/Historico.php");
-            ?>
-        </div>
+        <main id="main">
+            <div class="container">
+                <?php
+                    include("../Controllers/Historico.php");
+                ?>
+            </div>
+        </main>
 
 		<footer>
             <h4>Atendimento</h4>

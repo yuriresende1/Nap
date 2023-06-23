@@ -43,9 +43,11 @@
                 </a>
             </div>
         </header>
-        <div class="container">
-            <?php include('../Controllers/Log.php') ?>
-        </div>
+        <main id="main">
+            <div class="container">
+                <?php include('../Controllers/Log.php') ?>
+            </div>
+        </main>
         <footer id="footer">
             <h4>Atendimento</h4>
             <div>

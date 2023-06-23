@@ -43,12 +43,15 @@
                 </a>
             </div>
       </header>
-      <div class="container">
-        <?php
-            include("../Controllers/Users.php")
-        ?>
-        <a href="./page_register.php"><button class="btn btn-primary">Adicionar Usuário</button></a>
-      </div>
+      <main id="main">
+        <div class="container">
+            <?php
+                include("../Controllers/Users.php")
+            ?>
+            <a href="./page_register.php"><button class="btn btn-primary">Adicionar Usuário</button></a>
+        </div>
+      </main>
+
       <footer>
         <h4>Atendimento</h4>
         <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-telephone-fill" viewBox="0 0 16 16">
@@ -71,6 +74,6 @@
         <hr>
         <br>
         <p>&copy; 2023 GRUPO GLYMTECH Todos os direitos reservados.</p>
-		  </footer>
+	    </footer>
     </body>
 </html>

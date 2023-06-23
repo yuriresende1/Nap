@@ -45,7 +45,7 @@
                 <div class='img-logo'>
                 </div>
             </header>
-            <h1 style='text-align: center;'>Ficha de prontuário</h1>
+            <h1 style='text-align: center;'>Ficha de Anamnese</h1>
 
             <p><strong>Nome:</strong> $patient_name </p>
             <p><strong>CPF:</strong> $cpf </p>
@@ -61,7 +61,7 @@
             <p><strong>Responsável pelo atendimento:</strong> $responsible_service </p>
             <p><strong>Data do atendimento:</strong> $service_date </p>
         
-            <h1 style='text-align: center;'>Ficha de Anamnese</h1>
+            <h1 style='text-align: center;'>Ficha de Prontuário</h1>
 
             <p><strong>Encaminhado por:</strong> $forwarded_by </p>
             <p><strong>Motivos:</strong> $motives </p>
